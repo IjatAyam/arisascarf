@@ -1,13 +1,20 @@
 * {
   font-family: "Poppins", sans-serif;
+  color: #415161;
 }
 
 html {
-  font-size: 80%;
+  font-size: 90%;
 }
 
 #navbar {
   background-color: #f6cac7;
+  min-height: 100px;
+}
+
+#navbar a {
+  transition: 0.3s;
+  padding: 0px 15px 0px 15px;
 }
 
 main {
@@ -24,8 +31,9 @@ main {
 }
 
 .product-home {
-  padding: 0px;
-  margin: 0 20px 2.992em 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 2.992em;
 }
 
 .product-img {
@@ -39,6 +47,11 @@ main {
 #arisaFooter {
   padding: 80px 0px 70px 0px;
   background-color: #fff7f7;
+  color: #4c4a4a;
+}
+
+#arisaFooter b {
+  color: black;
 }
 
 #arisaFooter .footer-brand .footer-img img {
@@ -47,4 +60,75 @@ main {
 
 #arisaFooter .footer-brand div {
   margin-bottom: 0.5em;
+}
+
+#arisaFooter .footer-brand .footer-social > a {
+  display: inline-block;
+  border-radius: 60px 60px 60px 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  padding: 0.6em;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(242, 245, 247, 0.45);
+  width: 35px;
+  height: 35px;
+}
+
+#arisaFooter .footer-brand .footer-social > a:hover {
+  transition: 0.5s;
+  background-color: #f6cac7;
+  border-color: #ff5151;
+}
+
+#arisaFooter .footer-brand .footer-social > a:not(:last-child) {
+  margin-right: 9px;
+}
+
+#arisaFooter .footer-brand .footer-social > a > i {
+  color: white;
+}
+
+#arisaFooter .footer-company div {
+  margin-bottom: 0.75em;
+}
+
+#arisaFooter ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#arisaFooter .footer-sitemap h6 {
+  margin-bottom: 0.75em;
+}
+
+#arisaFooter .footer-sitemap ul > li {
+  margin-bottom: 0.5em;
+}
+
+#arisaFooter .footer-sitemap ul > li > a {
+  color: inherit;
+}
+
+#arisaFooter .footer-sitemap ul > li > a:hover {
+  color: #f6ccc8;
+  text-decoration: none;
+}
+
+#arisaCopyright {
+  padding-top: 2.66666em;
+  padding-bottom: 2.66666em;
+  background-color: #313131;
+}
+
+#arisaCopyright .container {
+  color: #c6c6c6;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.text-muted {
+  color: #a0a8b0 !important;
 }
